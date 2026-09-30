@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Nothing to install for static site"
+  build:
+    commands:
+      - echo "Building static site - just copying files"
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
